@@ -30,6 +30,6 @@ function draw() {
     background(220);
 
     var mult = speed / getTargetFrameRate();
-    var frame = Math.floor(((frameCount-1) * mult) % img.length);
+    var frame = Math.floor((frameCount-1) * mult) % img.length;
     image(img[frame], 140, 50, 200, 200);
 }
