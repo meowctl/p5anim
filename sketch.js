@@ -24,7 +24,7 @@ function setup() {
 }
 
 // fps alvo
-var speed = 7;
+var speed = 15;
 
 function draw() {
     background(220);
